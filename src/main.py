@@ -5,9 +5,18 @@ import discord
 from discord import Message as DiscordMessage, app_commands
 import logging
 from src.base import Message, Conversation, ThreadConfig
+# from src.constants import (
+#     BOT_INVITE_URL,
+#     DISCORD_BOT_TOKEN,
+#     EXAMPLE_CONVOS,
+#     ACTIVATE_THREAD_PREFX,
+#     MAX_THREAD_MESSAGES,
+#     SECONDS_DELAY_RECEIVING_MSG,
+#     AVAILABLE_MODELS,
+#     DEFAULT_MODEL,
+# )
 from src.constants import (
     BOT_INVITE_URL,
-    DISCORD_BOT_TOKEN,
     EXAMPLE_CONVOS,
     ACTIVATE_THREAD_PREFX,
     MAX_THREAD_MESSAGES,
